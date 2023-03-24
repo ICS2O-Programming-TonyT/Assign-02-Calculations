@@ -1,0 +1,15 @@
+body {
+	background-color: #f1c40f;
+}
+
+h1 {
+	color: rgb(192, 57, 43);
+}
+
+header, footer {
+	background-color: hsl(0, 50%, 50%);
+}
+
+#result {
+	color: #2980b9;
+}
