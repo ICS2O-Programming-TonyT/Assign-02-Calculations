@@ -16,8 +16,42 @@ body {
 
 h1 {
   color: hsl(220, 60%, 50%);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+
+label {
+  color: hsl(0, 0%, 20%);
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: hsl(200, 70%, 50%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #result {
-	color: #2980b9;
+  color: #2980b9;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
 }
